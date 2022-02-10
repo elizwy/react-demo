@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import NameCard from './components/NameCard.js';
 
 function App() {
+  const tags=['aaa','bbb','ccc']
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NameCard name="zwy" number={12345678} isHuman tags={tags}/>
     </div>
   );
 }
