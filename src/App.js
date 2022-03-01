@@ -1,26 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import NameCard from './components/NameCard.js';
+import NameCard from './components/NameCard';
+import LikesButton from './components/LikesButton';
 
 function App() {
   const tags=['aaa','bbb','ccc']
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
       <NameCard name="zwy" number={12345678} isHuman tags={tags}/>
+      <LikesButton />
     </div>
   );
 }
