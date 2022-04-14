@@ -33,7 +33,7 @@ class CommentBox extends React.Component{
                         // value={this.state.value}
                         // onChange={this.handleChange}
                         //  />
-                        ref={(textInput) => {this.textInput = textInput}}></input>
+                        ref={currentNode => this.textInput = currentNode}></input>
                 </div>
                 <button 
                     type="submit" 
