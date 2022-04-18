@@ -1,6 +1,6 @@
 import React from "react";
 /**
- * react 中函数是纯函数,不可变更输入参数值
+ * react 中函数是纯函数,不可变更输入参数值. statelesss
  * @param props 
  * @returns 
  */
