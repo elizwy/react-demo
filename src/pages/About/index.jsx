@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 
 export default class About extends Component {
   render() {
+    console.log("about output")
     return (
-      <div>I Am About</div>
+      <div><h2>I Am About</h2></div>
     )
   }
 }
